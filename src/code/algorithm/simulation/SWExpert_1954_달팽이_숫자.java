@@ -2,7 +2,7 @@ package code.algorithm.simulation;
 
 import java.util.Scanner;
 
-public class 달팽이_숫자_1954 {
+public class SWExpert_1954_달팽이_숫자 {
 	private static final int RIGHT = 0;
 	private static final int DOWN = 1;
 	private static final int LEFT = 2;

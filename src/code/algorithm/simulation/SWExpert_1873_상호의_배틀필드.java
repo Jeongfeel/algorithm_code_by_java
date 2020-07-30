@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class 상호의_배틀필드_1873 {
+public class SWExpert_1873_상호의_배틀필드 {
 	private static final char GROUND = '.';
 	private static final char BRICK_WALL = '*';
 	private static final char IRON_WALL = '#';

@@ -2,7 +2,7 @@ package code.algorithm.simulation;
 
 import java.util.Scanner;
 
-public class Flatten_1208 {
+public class SWExpert_1208_Flatten {
 	private static final int TEST_CASE = 10;
 	private static final int COUNT_OF_BOX = 100;
 

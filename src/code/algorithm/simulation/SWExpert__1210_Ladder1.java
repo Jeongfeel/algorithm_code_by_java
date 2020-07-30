@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Ladder1_1210 {
+public class SWExpert__1210_Ladder1 {
 	private static final int BLANK = 0;
 	private static final int LADDER = 1;
 	private static final int DESTINATION = 2;

@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class 파리_퇴치_2001 {
+public class SWExpert_2001_파리_퇴치 {
 	private static final int MAX_SIZE_OF_MAP = 15;
 	private static int flyMap[][] = new int[MAX_SIZE_OF_MAP][MAX_SIZE_OF_MAP];
 
