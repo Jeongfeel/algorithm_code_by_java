@@ -1,4 +1,4 @@
-package code.algorithm.simulation;
+package code.algorithm.bfs;
 
 import java.io.BufferedReader;
 import java.io.IOException;
