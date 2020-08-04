@@ -21,26 +21,8 @@ public class JungOl_1863_종교 {
 
 		initParentStudent(countOfStudent);
 		makeParentStudent(br, relationOfStudent);
-		optimizeParentStudent(countOfStudent);
 
 		System.out.println(getCountOfReligion(countOfStudent));
-	}
-
-	private static int getCountOfReligion(int countOfStudent) {
-		int countOfReligion = 0;
-
-		for (int i = 1; i <= countOfStudent; i++) {
-			int parentStudentIndex = findParentStudent(i);
-
-			if (isVisitedStudent[parentStudentIndex] == true) {
-				continue;
-			}
-
-			isVisitedStudent[parentStudentIndex] = true;
-			countOfReligion += 1;
-		}
-
-		return countOfReligion;
 	}
 
 	private static void initParentStudent(int countOfStudent) {
@@ -90,10 +72,20 @@ public class JungOl_1863_종교 {
 		return student;
 	}
 
-	private static void optimizeParentStudent(int countOfStudent) {
-		for (int i = 1; i <= countOfStudent; i++) {
-			findParentStudent(i);
-		}
-	}
+	private static int getCountOfReligion(int countOfStudent) {
+		int countOfReligion = 0;
 
+		for (int i = 1; i <= countOfStudent; i++) {
+			int parentStudentIndex = findParentStudent(i);
+
+			if (isVisitedStudent[parentStudentIndex] == true) {
+				continue;
+			}
+
+			isVisitedStudent[parentStudentIndex] = true;
+			countOfReligion += 1;
+		}
+
+		return countOfReligion;
+	}
 }
