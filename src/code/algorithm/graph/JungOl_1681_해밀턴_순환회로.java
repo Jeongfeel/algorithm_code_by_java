@@ -9,7 +9,6 @@ public class JungOl_1681_해밀턴_순환회로 {
 	private static int N;
 	private static int deliveryPlace[][];
 	private static boolean isVistedPlace[];
-	private static int order[] = new int[12];
 	private static int minimumDeliveryCost = Integer.MAX_VALUE;
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
@@ -59,7 +58,6 @@ public class JungOl_1681_해밀턴_순환회로 {
 			}
 
 			isVistedPlace[i] = true;
-			order[countOfPlace] = i;
 			makeMinimumDeliveryCost(i, weight + deliveryPlace[previousPlace][i], countOfPlace + 1);
 			isVistedPlace[i] = false;
 		}
