@@ -30,7 +30,7 @@ public class Baekjoon_17472_다리_만들기_2 {
 	}
 
 	private static final int SEA = 0;
-	private static final int GROUND = 0;
+	private static final int GROUND = 1;
 	private static final int INVALID_VALUE = Integer.MAX_VALUE;
 
 	private static final int COUNT_OF_DIRECTION = 4;
